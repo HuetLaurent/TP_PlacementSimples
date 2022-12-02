@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Placement</title>
+    <link href="./placement2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <fieldset>
+        <form method="POST" action="monProgramme.php">
+            <h1>Connexion</h1>
+            <label for="prenom" class="pseudo">Pseudo :</label>
+            <input type="text" name="prenom" class="pseudo" placeholder="Pseudo" maxlength="20"/>
+                <br/>
+            <label for="password" class="pseudo">Mot de passe :</label>
+            <input type="password" name="password" class="pseudo" placeholder="Mot de passe" minlength="3" maxlength="32"/>
+                <br/>
+            <input checked type="checkbox" id="checkbox"/><label for="checkbox">Se souvenir de moi</label>
+                <br/>
+            <div>
+                <input type="submit" class="btton" value="Connexion"/>
+                <input type="button" class="btton" value="Retour"/>
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>

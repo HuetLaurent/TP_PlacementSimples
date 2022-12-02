@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    margin-top: 100px;
+    padding: 0;
+}
+
+fieldset {
+    height: 250px;
+    width: 400px;
+    margin: auto;
+    border: gray solid 1px;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+label.pseudo{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+input.pseudo{
+    margin-bottom: 20px;
+}
+
+input#checkbox{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+input.btton{
+    color: black;
+    background-color: lightgray;
+    border: lightgray solid;
+}
+
+input.btton:nth-child(1){
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+input.btton:nth-child(2){
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+input.btton:hover{
+    color: white;
+    background-color: grey;
+    border: grey solid;
+}
